@@ -5,6 +5,12 @@
     color:hsl(351, 85%, 51%);
  }
 
+ .about-content .about-text h3 span{
+     color:#ec1839;
+ }
+
+.section-title h2::after,
+.section-title h2::before,
 .aside .nav-toggler span,
 .aside .nav-toggler span::before,
 .aside .nav-toggler span::after,
