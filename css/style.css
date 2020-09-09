@@ -32,11 +32,16 @@ body{
     min-height: 100vh;
     display: block;
     padding:0 30px;
+    /* display: none; */
 }
 /* .section .container{
     padding-top:50pxpx;
     padding-bottom:70px;
 } */
+
+.hidden{
+    display:none;
+}
 
 .section-title{
     /* background-color: red; */
@@ -46,6 +51,7 @@ body{
     -ms-flex:0 0 100%;
     flex: 0 0 100%;
     max-width:100%;
+    /* display:none; */
     
 
 }
@@ -205,6 +211,7 @@ body{
     min-height: 100vh;
     display:-ms-flexbox;
     display:flex;
+    background-color: #f2f2fc;
     /* display:none; */
 
 }
@@ -292,6 +299,7 @@ body{
 .about-content .personal-info h4{
     color:brown;
     font-size:25px;
+    padding-bottom: 10px;
 }
 
 .about-content .personal-info .info-item{
@@ -311,6 +319,73 @@ body{
 }
 
 .about-content .personal-info .info-item p span{
-    font-weight: 200;
+    font-weight: 600;
+    color:rgba(216, 25, 175, 0.836);
+
     /* color:red; */
+}
+
+.skills .row .section-title {
+    display:flex;
+    justify-content:center;
+    /* background-color: red; */
+    /* display:inline-block; */
+    /* margin:auto; */
+}
+
+.skills .row .section-title h2{
+    /* background-color:blue; */
+    display:inline-block;
+}
+
+.skills .skills-item{
+    /* background-color: red; */
+    flex:0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+    max-width:33.33%;
+    padding-left:30px;
+    height:20px;
+    border-radius: 20px;
+}
+
+.skills .skills-item .skills-item-inner{
+    background-color:#d4d4e3;
+    border-radius: 20px;
+      /* height:20px; */
+}
+
+.skills .skills-item .skills-item-inner .icon{
+    /* padding-left:110px; */
+    text-align:center;
+    padding-bottom: 5px;
+    /* margin-top: 10px; */
+    padding-top:10px;
+    /* background-color:red ; */
+    /* display:inline-block; */
+    /* margin:auto; */
+    /* display:flex; */
+    /* display:inline; */
+}
+
+
+.skills .skills-item .skills-item-inner h4{
+    /* padding-left:100px; */
+    text-align:center;
+    padding-bottom:20px;
+    font-weight:900;
+    color:brown;
+    font-style: 'Rubik',sans-serif;
+    /* text-shadow: #302e4d; */
+    /* text-emphasis: size 20px; */
+    font-size:20px;
+}
+
+.skills .skills-item .skills-item-inner .nav{
+    line-height: 40px;
+    color:red;
+    padding-left:20px;
+}
+
+.skills .skills-item .skills-item-inner .nav li a{
+    color:black;
 }
