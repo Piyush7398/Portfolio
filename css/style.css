@@ -235,8 +235,8 @@ input,textarea{
     display:inline-block;
     border:8px solid #ffffff;
     /* background-color: #302b7c; */
-    height:200px;
-    width:200px;
+    height:300px;
+    width:300px;
 }
 
 .home .intro h1{
